@@ -25,5 +25,5 @@ jobs:
           subject: 叮咚，今日天气已送达，请及时查看
           body: file://result.html
           to: asamu7@126.com
-          from: GitHub Actions
+          from: 你的专属播报员小A
           content_type: text/html
