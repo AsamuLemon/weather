@@ -1,9 +1,9 @@
 name: 'GitHub Actions Weather Bot'
 
 on:
-  push:
+  # push:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 23 * * *'
 
 jobs:
   bot:
@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: 叮咚，今日天气已送达，请及时查看
           body: file://result.html
-          to: asamu7@126.com,1275849631@qq.com
+          to: asamu7@126.com,2643386788@qq.com
           from: 可爱的天气使者小A
           content_type: text/html
