@@ -22,7 +22,7 @@ jobs:
           server_port: 465
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: Chongqing Weather Report
+          subject: 天气预报
           body: file://result.html
           to: asamu7@126.com
           from: GitHub Actions
